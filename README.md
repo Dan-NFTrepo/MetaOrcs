@@ -1,24 +1,6 @@
-# Welcome to HashLips 👄
+ minting dapp 🔥
 
-![](https://github.com/HashLips/hashlips_nft_minting_dapp/blob/main/logo.png)
 
-All the code in these repos was created and explained by HashLips on the main YouTube channel.
-
-To find out more please visit:
-
-[📺 YouTube](https://www.youtube.com/channel/UC1LV4_VQGBJHTJjEWUmy8nA)
-
-[👄 Discord](https://discord.com/invite/qh6MWhMJDN)
-
-[💬 Telegram](https://t.me/hashlipsnft)
-
-[🐦 Twitter](https://twitter.com/hashlipsnft)
-
-[ℹ️ Website](https://hashlips.online/HashLips)
-
-# HashLips NFT minting dapp 🔥
-
-![](https://github.com/HashLips/hashlips_nft_minting_dapp/blob/main/banner.png)
 
 This repo provides a nice and easy way for linking an existing NFT smart contract to this minting dapp. There are two ways of using this repo, you can go the simple route or the more complex one.
 
@@ -28,10 +10,7 @@ The more complex route allows you to add additional functionality if you are com
 
 ## Installation 🛠️
 
-If you are cloning the project then run this first, otherwise you can download the source code on the release page and skip this step.
-
-```sh
-git clone https://github.com/HashLips/hashlips_nft_minting_dapp.git
+If you are cloning the project then run this first, otherwise you can download the source code on the release page
 ```
 
 Make sure you have node.js installed so you can use npm, then run:
@@ -52,21 +31,21 @@ Note: this dapp is designed to work with the intended NFT smart contract, that o
 
 ```json
 {
-  "CONTRACT_ADDRESS": "0x827acb09a2dc20e39c9aad7f7190d9bc53534192",
-  "SCAN_LINK": "https://polygonscan.com/token/0x827acb09a2dc20e39c9aad7f7190d9bc53534192",
+  "CONTRACT_ADDRESS": "0x0a0c3D9412BE89Cc2EDd95F268Ef8E75b9325fCa",
+  "SCAN_LINK": "https://polygonscan.com/address/0x0a0c3d9412be89cc2edd95f268ef8e75b9325fca",
   "NETWORK": {
     "NAME": "Polygon",
     "SYMBOL": "Matic",
     "ID": 137
   },
-  "NFT_NAME": "Nerdy Coder Clones",
+  "NFT_NAME": "Meta Orcs",
   "SYMBOL": "NCC",
   "MAX_SUPPLY": 1000,
   "WEI_COST": 75000000000000000,
   "DISPLAY_COST": 0.075,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "OpenSea",
-  "MARKETPLACE_LINK": "https://opensea.io/collection/nerdy-coder-clones",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/meta-orcs",
   "SHOW_BACKGROUND": true
 }
 ```
@@ -95,16 +74,16 @@ Now you will need to create and change the `public/favicon.ico`, `public/logo192
 Remember to update the title and description the `public/index.html` file
 
 ```html
-<title>Nerdy Coder Clones</title>
-<meta name="description" content="Mint your Nerdy Coder Clone NFT" />
+<title>Meta Orcs</title>
+<meta name="description" content="Mint your Meta Orcs NFT" />
 ```
 
 Also remember to update the short_name and name fields in the `public/manifest.json` file
 
 ```json
 {
-  "short_name": "NCC",
-  "name": "Coder Clone NFT"
+  "short_name": "MO",
+  "name": "Meta Orcs"
 }
 ```
 
